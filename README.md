@@ -8,4 +8,4 @@ Modalitat - Tecnologic
 
 
 Presentació:
-Em dic Nil y magrada: el basket, els videojocs y natura.
+Em dic Nil y magrada: el basket, els videojocs i la natura.

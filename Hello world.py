@@ -1,16 +1,10 @@
 print("")
 print("Quin és")
 nom = input("el teu nom?")
-print("Hola", nom)
 
-num = 1
-print(num)
-num = 2.5
-print(num)
-num = "ups"
-print(num)
-
-print("Escriu la teva edat")
-edat = int(input())
-print("Tens", edat, "anys")
+print("En quin any")
+any_naixement = int(input("vas néixer?"))
+#es resta l'any de naixement a l'any actual per calcular l'edat
+edat = 2026 - any_naixement
+print("Hola", nom, "! En 2027 tindràs", edat, "anys")
 print("")

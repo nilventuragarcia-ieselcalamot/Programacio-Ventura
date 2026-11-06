@@ -30,3 +30,20 @@ print(llista)
 #deixar en blanc una posició de la llista
 llista[2] = ""
 print(llista)
+
+#DNI
+
+dni = (input("Introdueix el teu DNI: "))
+dni_sense_lletra = dni[0:8]
+dni_sense_lletra = int(dni_sense_lletra)
+dni_lletra = str(dni)[-1]
+modul_dni = dni_sense_lletra % 23
+llista_lletras_mayus = ["T", "R", "W", "A", "G", "M", "Y", "F", "P", "D", "X", "B", "N", "J", "Z", "S", "Q", "V", "H", "L", "C", "K", "E"]
+llista_lletras_minus = ["t", "r", "w", "a", "g", "m", "y", "f", "p", "d", "x", "b", "n", "j", "z", "s", "q", "v", "h", "l", "c", "k", "e"]
+if len(dni) != 9:
+    print("Aquesta no és una longitud de DNI vàlida")
+else:
+    if dni_lletra == llista_lletras_mayus[modul_dni] or dni_lletra == llista_lletras_minus[modul_dni]:
+        print("El DNI és correcte")
+    else:
+        print("El DNI és incorrecte")

@@ -47,3 +47,9 @@ else:
         print("El DNI és correcte")
     else:
         print("El DNI és incorrecte")
+
+#append 
+
+print("La llista es: ", llista)
+llista.append("gat")
+print("La llista es: ", llista)

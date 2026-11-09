@@ -46,10 +46,15 @@ else:
     if dni_lletra == llista_lletras_mayus[modul_dni] or dni_lletra == llista_lletras_minus[modul_dni]:
         print("El DNI és correcte")
     else:
-        print("El DNI és incorrecte")
+        print("El DNI és incorrecte, deuria de ser: ", llista_lletras_mayus[modul_dni])
 
 #append 
 
 print("La llista es: ", llista)
 llista.append("gat")
+print("La llista es: ", llista)
+
+#insert
+
+llista.insert(1, "gos")
 print("La llista es: ", llista)

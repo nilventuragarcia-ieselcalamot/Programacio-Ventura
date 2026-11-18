@@ -93,3 +93,4 @@ elif operacion == 7:
 
 else:
     print("Operació no vàlida")
+    
